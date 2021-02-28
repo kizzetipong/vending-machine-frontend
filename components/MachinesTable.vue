@@ -29,6 +29,7 @@
             v-for="item in props.items"
             :key="item.name"
             cols="12"
+            md="6"
           >
             <v-card>
               <v-card-title class="subheading font-weight-bold">
